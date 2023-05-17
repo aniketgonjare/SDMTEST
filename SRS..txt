@@ -1,0 +1,23 @@
+
+
+The purpose of this document is to specify the requirements for the development of an Employee Recruitment System.
+
+FUNCTIONAL REQUIREMENT:
+
+Any ananymous user will be able to view job details without registration.
+The system should show all available company names to those who are looking for job.
+While applying the system should accept CV of a applying candidate in .pdf format only.
+System should allow only registered candidates to apply for a job.
+the system should accept email,name ,mobiule number,age, qualification of users while registering.
+The system should allow HR to track the status of candidate applications Requirements
+HR can mark applications as remark i.e. received, under shortlisted, rejected.
+It should also make possible for organization to post their staffing requirement.
+the organization can be able to view profile of intrested registered users.
+the system should notify users on successful application.
+
+
+
+BUISNESS ENTITIES:
+user,company name,job,registered candidates,
+Hr,remark,mobileno,email,
+

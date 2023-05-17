@@ -1,0 +1,46 @@
+create table candidate (
+candidateID int,
+firstname varchar(20),
+lastname varechar(20),
+mobile No int,
+email varchar(20),
+age int,
+skills varchar(20),
+education varchar(90),
+);
+
+
+create table HR_Department(
+name varchar(20),
+department_id  int,
+contact_person int, 
+contact_email varchar(20)
+);
+
+
+create table employee(
+ employer_id int,
+ name varchar(20),
+ industry varchar(20),
+ location varchar(30)
+);
+
+
+create table application(
+appID int,
+candidate_id int,
+status varchar
+);
+
+
+
+create table job(
+title varchar(20),
+desc varchar(20),
+requirements varchar(20),
+deadline date,
+);
+
+
+
+
